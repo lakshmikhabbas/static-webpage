@@ -129,11 +129,13 @@ select{
 }
 
 .location-list li::after{
-    content: "|";
+    content: '';
+    height: 8%;
+    width: 1px;
     position: absolute;
-    left: 40px;
+    left: 45px;
     margin-top: 40px;
-    color: #ffffff;
+    background-color: #ffffff;
 }
 
 /* main-content starts */
