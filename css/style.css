@@ -75,7 +75,16 @@ select{
     margin: 0px 20px;
     float: left;
 }
-
+.location a::after{
+    content: ' ';
+    position: absolute;
+    width: 1px;
+    height: 73%;
+    top: -162px;
+    margin-top: 0;
+    left: 30%;
+    background-color: #adaaaa;
+}
 .detector img{
     display: inline;
     height: 60px;
